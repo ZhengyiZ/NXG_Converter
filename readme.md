@@ -23,7 +23,7 @@ Alternatively, you can download `readnxg.m` from the [release](https://github.co
 
 ## Environment
 
-The NXG Converter is developed and tested on `Windows 11` using [`MATLAB R2023a`](https://www.mathworks.con/products/matlab.html).
+The NXG Converter is developed and tested on `Windows 11` using [`MATLAB R2023a`](https://www.mathworks.com/products/matlab.html).
 
 It does not have any dependencies on additional MATLAB toolkits.
 
