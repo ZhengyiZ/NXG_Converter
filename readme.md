@@ -6,7 +6,7 @@ The NXG Converter is a batch converter that transforms `NXG` format files *(ANSI
 
 ### Converting NXG to TIFF
 
-1. Download and install the NXG Converter from the provided [installer]().
+1. Download and install the NXG Converter from the provided [installer](https://github.com/ZhengyiZ/NXG_Converter/releases).
    
    > The initial installation might take some time as it requires the installation of `MATLAB runtime`.
 
@@ -17,7 +17,7 @@ The NXG Converter is a batch converter that transforms `NXG` format files *(ANSI
 ### Importing Data into MATLAB Workspace
 
 To import data into the MATLAB workspace, refer to [`func/readnxg.m`](https://github.com/ZhengyiZ/NXG_Converter/blob/main/func/readnxg.m) for detailed instructions. 
-Alternatively, you can download [`readnxg.m`]() from the release.
+Alternatively, you can download `readnxg.m` from the [release](https://github.com/ZhengyiZ/NXG_Converter/releases).
 
 ## Environment
 
