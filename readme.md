@@ -10,18 +10,21 @@ The NXG Converter is a batch converter that transforms `NXG` format files *(ANSI
    
    > The initial installation might take some time as it requires the installation of `MATLAB runtime`.
 
-2. Double-click the program icon to run the converter. Wait for the program to respond and then select the folder containing the NXG files you want to convert.
+2. Double-click the program icon to run the converter.
+3. Wait for the program to respond and then select the folder containing the NXG files you want to convert.
    
    > The converter does not process any file in subfolders.
 
 ### Importing Data into MATLAB Workspace
 
 To import data into the MATLAB workspace, refer to [`func/readnxg.m`](https://github.com/ZhengyiZ/NXG_Converter/blob/main/func/readnxg.m) for detailed instructions. 
+
 Alternatively, you can download `readnxg.m` from the [release](https://github.com/ZhengyiZ/NXG_Converter/releases).
 
 ## Environment
 
-The NXG Converter is developed and tested on `Windows 11` using `MATLAB R2023a`.
+The NXG Converter is developed and tested on `Windows 11` using [`MATLAB R2023a`](https://www.mathworks.con/products/matlab.html).
+
 It does not have any dependencies on additional MATLAB toolkits.
 
 ## License
