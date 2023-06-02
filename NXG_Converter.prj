@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="4249655073" file="D:\GitHub\ReadNXG\NXG_Converter.prj" location="D:\GitHub\ReadNXG" name="NXG_Converter" preferred-package-location="D:\SVN\MATLAB\NXG_Converter\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="1557470908" file="D:\GitHub\ReadNXG\NXG_Converter.prj" location="D:\GitHub\ReadNXG" name="NXG_Converter" preferred-package-location="D:\GitHub\ReadNXG\NXG_Converter\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>NXG_Converter</param.appname>
     <param.icon>${PROJECT_ROOT}\NXG_Converter_resources\icon.ico</param.icon>
     <param.icons>
@@ -13,7 +13,7 @@
     <param.email>zhanzy@zju.edu.cn</param.email>
     <param.company>Zhejiang University</param.company>
     <param.summary>get valid data and all data at once.</param.summary>
-    <param.description>Batch NXG format (ANSI encoded text) converter for a single folder.</param.description>
+    <param.description>A batch NXG format (ANSI encoded text) to TIFF format converter for a single folder.</param.description>
     <param.screenshot>${PROJECT_ROOT}\NXG_Converter_resources\splash.png</param.screenshot>
     <param.guid />
     <param.installpath.string>\MINFLUX Software\NXG Converter\</param.installpath.string>
@@ -49,7 +49,7 @@ Please wait for it to finish.</param.install.notes>
 	 -?  print help on how to use the application 
 	 image5D filePrefix  input arguments 
  Description 
- 	 Batch NXG format (ANSI encoded text) converter for a single folder.</param.help.text>
+ 	 A batch NXG format (ANSI encoded text) to TIFF format converter for a single folder.</param.help.text>
     <unset>
       <param.guid />
       <param.logo />
