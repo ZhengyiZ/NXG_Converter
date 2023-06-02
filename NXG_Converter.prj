@@ -1,0 +1,121 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="4249655073" file="D:\GitHub\ReadNXG\NXG_Converter.prj" location="D:\GitHub\ReadNXG" name="NXG_Converter" preferred-package-location="D:\SVN\MATLAB\NXG_Converter\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>NXG_Converter</param.appname>
+    <param.icon>${PROJECT_ROOT}\NXG_Converter_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\NXG_Converter_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\NXG_Converter_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\NXG_Converter_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\NXG_Converter_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>0.2.0</param.version>
+    <param.authnamewatermark>Zhengyi Zhan</param.authnamewatermark>
+    <param.email>zhanzy@zju.edu.cn</param.email>
+    <param.company>Zhejiang University</param.company>
+    <param.summary>get valid data and all data at once.</param.summary>
+    <param.description>Batch NXG format (ANSI encoded text) converter for a single folder.</param.description>
+    <param.screenshot>${PROJECT_ROOT}\NXG_Converter_resources\splash.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\MINFLUX Software\NXG Converter\</param.installpath.string>
+    <param.installpath.combo>option.installpath.appdata</param.installpath.combo>
+    <param.logo />
+    <param.install.notes>The first installation of this machine needs to install the MATLAB Runtime R2023a.
+Please wait for it to finish.</param.install.notes>
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\NXG_Converter\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\NXG_Converter\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\NXG_Converter\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\NXG_Converter</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	 NXG_Converter -? 
+	 NXG_Converter image5D filePrefix 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 image5D filePrefix  input arguments 
+ Description 
+ 	 Batch NXG format (ANSI encoded text) converter for a single folder.</param.help.text>
+    <unset>
+      <param.guid />
+      <param.logo />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\NXG_Converter.m</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${MATLAB_ROOT}\toolbox\local\userpath.m</file>
+      <file>${PROJECT_ROOT}\func\readnxg.m</file>
+      <file>${PROJECT_ROOT}\func\Timerwaitbar.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\NXG_Converter\for_testing" name="splash.png" optional="false">D:\GitHub\ReadNXG\NXG_Converter\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\NXG_Converter\for_testing" name="NXG_Converter.exe" optional="false">D:\GitHub\ReadNXG\NXG_Converter\for_testing\NXG_Converter.exe</file>
+      <file location="${PROJECT_ROOT}\NXG_Converter\for_testing" name="readme.txt" optional="true">D:\GitHub\ReadNXG\NXG_Converter\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
